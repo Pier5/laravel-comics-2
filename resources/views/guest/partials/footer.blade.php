@@ -1,19 +1,19 @@
 <footer>
     <div class="footer-top">
         <div class="container-1200">
-            <img class="img-foot" src="./images/buy-comics-digital-comics.png" alt="logo dc">
+            <img class="img-foot" src="../images/buy-comics-digital-comics.png" alt="logo dc">
             <h2 class="foot-top_text">Digital comics</h2>
             
-            <img class="img-foot" src="./images/buy-comics-merchandise.png" alt="shop dc">
+            <img class="img-foot" src="../images/buy-comics-merchandise.png" alt="shop dc">
             <h2 class="foot-top_text">Digital comics</h2>
 
-            <img class="img-foot" src="./images/buy-comics-subscriptions.png" alt="logo iscrizione">
+            <img class="img-foot" src="../images/buy-comics-subscriptions.png" alt="logo iscrizione">
             <h2 class="foot-top_text">Digital comics</h2>
 
-            <img class="img-foot-locator" src="./images/buy-comics-shop-locator.png" alt="logo localizzatore">
+            <img class="img-foot-locator" src="../images/buy-comics-shop-locator.png" alt="logo localizzatore">
             <h2 class="foot-top_text">Digital comics</h2>
 
-            <img class="img-foot" src="./images/buy-dc-power-visa.svg" alt="logo carta visa">
+            <img class="img-foot" src="../images/buy-dc-power-visa.svg" alt="logo carta visa">
             <h2 class="foot-top_text">Digital comics</h2>
 
         </div>
@@ -79,7 +79,7 @@
                     </nav>
                 </div>
 
-                <img class="foot-img_jumbo" src="./images/dc-logo-bg.png" alt="">
+                <img class="foot-img_jumbo" src="../images/dc-logo-bg.png" alt="">
                 
             </div>
 

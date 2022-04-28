@@ -29,4 +29,12 @@ Route::get('/characters', function () {
     return view('guest.characters');
 })->name('characters');
 
+Route::get('/comic/{id}', function ($id) {
+    $comic = collect(config('comics'));
+    $selectedComic = $comic->firstWhere('id', $id);
+    if (!$selectedComic) abort(404);
 
+    return view('guest.comicDetails', [
+        'comic' => $selectedComic
+    ]);
+})->name('comicDetails');

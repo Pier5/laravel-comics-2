@@ -9,7 +9,7 @@
     </div>
     <div class="header-bottom">
         <div class="container-head_bottom container">
-            <img class="header-logo" src="./images/dc-logo.png" alt="logo dc">
+            <img class="header-logo" src="../images/dc-logo.png" alt="logo dc">
             <nav>
                 <ul>
                     <a href=""><li class="header-li li-head_bottom {{ Route::currentRouteName() == 'characters' ? 'active' : '' }}"><a href="{{ route('characters') }}">Characters</a></li></a>
