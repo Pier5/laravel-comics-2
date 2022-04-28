@@ -32,4 +32,54 @@
            </div>
         </div>
     </section>
+    <div class="details-bottom">
+        <div class="container-900">
+            <div class="details-top">
+
+                <div class="details-left">
+                    <h2>Talent</h2>
+                    <div class="text-left">
+                        <h3>Art by:</h3>
+                        <h4>
+                            @foreach ($comic['artists'] as $artist)
+                                {{ $artist }} 
+                            @endforeach 
+                        </h4>
+                    </div>
+                    <div class="text-left_bottoms">
+                        <h3>Written by:</h3>
+                        <h4>
+                            @foreach ($comic['writers'] as $writer)
+                                {{ $writer }} 
+                            @endforeach 
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="details-right">
+                    <h2>Specs</h2>
+                    <div class="text-right">
+                        <h3>Series:</h3>
+                        <h4>{{ $comic['series'] }}</h4>
+                    </div>
+                    <div class="text-right">
+                        <h3>U.S. Price:</h3>
+                        <h5>{{ $comic['price'] }}</h5>
+
+                    </div>
+                    <div class="text-right">
+                        <h3>On Sale Price:</h3>
+                        <h5>{{ $comic['sale_date'] }}</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="details-bottom">
+                <div class="container-900 details-bottom_container">
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
 @endsection
