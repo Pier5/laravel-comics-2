@@ -3,7 +3,7 @@
 @section('title', 'Comics - Info')
 
 @section('content')
-    <section>
+    <section class="section-comic">
         <div class="main-comics_top">
             <img class="jumbo-img" src="../images/jumbotron.jpg" alt="immagine dc">
             <div class="blue-line"></div>
@@ -24,7 +24,6 @@
                     <p>{{ $comic['description'] }}</p>
                 </div>
 
-
                 <div class="info-comic-right">
                     <h4>Advertisement</h4>
                     <img class="adv-img" src="../images/adv.jpg" alt="">
@@ -42,7 +41,7 @@
                         <h3>Art by:</h3>
                         <h4>
                             @foreach ($comic['artists'] as $artist)
-                                {{ $artist }} 
+                                {{ $artist }},
                             @endforeach 
                         </h4>
                     </div>
@@ -50,7 +49,7 @@
                         <h3>Written by:</h3>
                         <h4>
                             @foreach ($comic['writers'] as $writer)
-                                {{ $writer }} 
+                                {{ $writer }}, 
                             @endforeach 
                         </h4>
                     </div>
@@ -75,7 +74,23 @@
             </div>
 
             <div class="details-bottom">
-                <div class="container-900 details-bottom_container">
+                <div class="container-800 details-bottom_container">
+                    <div class="item-detail">
+                        <h4>Digital comics</h4>
+                        <img src="../images/buy-comics-digital-comics.png" alt="">
+                    </div>
+                    <div class="item-detail">
+                        <h4>Shop DC</h4>
+                        <img src="../images/buy-comics-subscriptions.png" alt="">
+                    </div>
+                    <div class="item-detail">
+                        <h4>Comic shop locator</h4>
+                        <img src="../images/buy-comics-shop-locator.png" alt="">
+                    </div>
+                    <div class="item-detail">
+                        <h4>Subscriptions</h4>
+                        <img src="../images/buy-comics-merchandise.png" alt="">
+                    </div>
                     
                 </div>
             </div>

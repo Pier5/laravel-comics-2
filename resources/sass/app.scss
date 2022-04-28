@@ -8,8 +8,12 @@ a {
     text-decoration: none;
 }
 
-section {
+.section-characters {
     margin: 40px 0;
+}
+
+.section-comic {
+    margin-bottom: 40px;
 }
 
 .active {
@@ -19,6 +23,11 @@ section {
 .container {
     margin: 0 auto;
     width: 1300px;
+}
+
+.container-800 {
+    width: 800px;
+    margin: 0 auto;
 }
 
 .container-900 {
@@ -334,7 +343,6 @@ li {
 }
 
 .info-comic-right {
-
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -476,4 +484,23 @@ h4 {
 
 .details-bottom_container {
     display: flex;
+    margin-top: 50px;
+    padding: 20px 0;
+    .item-detail {
+        width: calc(100% - 10px / 4);
+        display: flex;
+        justify-content: center;
+        border: 1px solid gray;
+        padding: 20px 10px;
+        h4 {
+            align-self: flex-start;
+            margin-right: 10px;
+            color: gray;
+            font-size: .8rem;
+        }
+        img {
+            width: 20%;
+            margin-right: 20px;
+        }
+    }
 }
