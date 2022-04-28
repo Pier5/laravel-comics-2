@@ -327,8 +327,18 @@ li {
   padding-top: 100px;
 }
 
+.info-comic {
+  display: flex;
+}
+
 .info-comic-left {
   width: 65%;
+}
+
+.info-comic-right {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .comic-price {
@@ -342,4 +352,36 @@ li {
   background-color: green;
   padding: 0.5rem;
   margin: 20px 0;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+h3 {
+  color: lightgreen;
+  font-size: 1rem;
+}
+
+.white-info {
+  margin-right: auto;
+}
+
+.white-price {
+  color: white;
+}
+
+.last-info {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid black;
+}
+
+.adv-img {
+  width: 70%;
+}
+
+h4 {
+  align-self: center;
 }

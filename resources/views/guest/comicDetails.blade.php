@@ -17,16 +17,17 @@
                 <div class="info-comic-left">
                     <h2 class="comic-price">{{ $comic['title'] }}</h2>
                     <div class="price-info">
-                        <h3>U.S. Price: <span class="white-price">{{ $comic['price'] }}</span></h3>
+                        <h3 class="white-info">U.S. Price: <span class="white-price">{{ $comic['price'] }}</span></h3>
                         <h3>Available</h3>
-                        <h3>Check Availability</h3>
+                        <h3 class="white-price last-info">Check Availability<i class="fa-solid fa-angle-down"></i></h3>
                     </div>
                     <p>{{ $comic['description'] }}</p>
                 </div>
 
 
                 <div class="info-comic-right">
-
+                    <h4>Advertisement</h4>
+                    <img class="adv-img" src="../images/adv.jpg" alt="">
                 </div>
            </div>
         </div>
