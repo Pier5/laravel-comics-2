@@ -23,6 +23,7 @@
                             <a class="li-foot_title" href=""><li class="li-title">Shop</li></a>
                             <a class="li-foot_list" href=""><li>Shop DC</li></a>
                             <a class="li-foot_list" href=""><li>Shop DC collectables</li></a>
+                        </ul>
                     </nav>
                 </div>
 
@@ -62,7 +63,6 @@
                 
             </div>
 
-
             <div class="foot-middle_bottom">
                 <h2 class="foot_text">All Site content TM and &copy; 2020 DC Entertainment, 
                     unless otherwise <a href="" class="foot-link_text">noted here</a>. All right reserved.
@@ -70,11 +70,7 @@
                 </h2>
             </div>
        </div>
-
-
     </div>
-
-
 
     <div class="footer-bottom">
         <div class="container container-footer_bottom">

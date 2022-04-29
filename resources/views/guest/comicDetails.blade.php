@@ -41,7 +41,12 @@
                         <h3>Art by:</h3>
                         <h4>
                             @foreach ($comic['artists'] as $artist)
-                                {{ $artist }},
+                                {{ $artist }}
+                                @if($loop->last) 
+                                    .
+                                @else
+                                    ,
+                                @endif
                             @endforeach 
                         </h4>
                     </div>
@@ -49,7 +54,12 @@
                         <h3>Written by:</h3>
                         <h4>
                             @foreach ($comic['writers'] as $writer)
-                                {{ $writer }}, 
+                                {{ $writer }}
+                                @if($loop->last) 
+                                    .
+                                @else
+                                    ,
+                                @endif 
                             @endforeach 
                         </h4>
                     </div>
