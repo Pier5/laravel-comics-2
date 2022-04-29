@@ -33,8 +33,8 @@
     </section>
     <div class="details-bottom">
         <div class="container-900">
+            
             <div class="details-top">
-
                 <div class="details-left">
                     <h2>Talent</h2>
                     <div class="text-left">
@@ -71,40 +71,42 @@
                         <h3>Series:</h3>
                         <h4>{{ $comic['series'] }}</h4>
                     </div>
-                    <div class="text-right">
+                    <div class="text-right right-two">
                         <h3>U.S. Price:</h3>
                         <h5>{{ $comic['price'] }}</h5>
 
                     </div>
-                    <div class="text-right">
+                    <div class="text-right right-three">
                         <h3>On Sale Price:</h3>
                         <h5>{{ date_format(date_create($comic['sale_date']), 'M d Y') }}</h5>
                     </div>
                 </div>
             </div>
 
-            <div class="details-bottom">
-                <div class="container-800 details-bottom_container">
-                    <div class="item-detail">
-                        <h4>Digital comics</h4>
-                        <img src="../images/buy-comics-digital-comics.png" alt="">
-                    </div>
-                    <div class="item-detail">
-                        <h4>Shop DC</h4>
-                        <img src="../images/buy-comics-subscriptions.png" alt="">
-                    </div>
-                    <div class="item-detail">
-                        <h4>Comic shop locator</h4>
-                        <img src="../images/buy-comics-shop-locator.png" alt="">
-                    </div>
-                    <div class="item-detail">
-                        <h4>Subscriptions</h4>
-                        <img src="../images/buy-comics-merchandise.png" alt="">
-                    </div>
-                    
-                </div>
-            </div>
+            
 
+        </div>
+
+        <div class="details-bottom">
+            <div class="container-800 details-bottom_container">
+                <div class="item-detail">
+                    <h4>Digital comics</h4>
+                    <img src="../images/buy-comics-digital-comics.png" alt="">
+                </div>
+                <div class="item-detail">
+                    <h4>Shop DC</h4>
+                    <img src="../images/buy-comics-subscriptions.png" alt="">
+                </div>
+                <div class="item-detail">
+                    <h4>Comic shop locator</h4>
+                    <img src="../images/buy-comics-shop-locator.png" alt="">
+                </div>
+                <div class="item-detail">
+                    <h4>Subscriptions</h4>
+                    <img src="../images/buy-comics-merchandise.png" alt="">
+                </div>
+                
+            </div>
         </div>
     </div>
 @endsection

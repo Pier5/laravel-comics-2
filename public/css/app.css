@@ -400,10 +400,13 @@ h4 {
 
 .details-bottom {
   background-color: lightgray;
+  border-top: 1px solid gray;
 }
 
 .details-top {
   display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
 }
 
 .details-left {
@@ -483,14 +486,14 @@ h4 {
 
 .details-bottom_container {
   display: flex;
-  margin-top: 50px;
-  padding: 20px 0;
 }
 .details-bottom_container .item-detail {
   width: calc(100% - 2.5px);
   display: flex;
   justify-content: center;
-  border: 1px solid gray;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
   padding: 20px 10px;
 }
 .details-bottom_container .item-detail h4 {
