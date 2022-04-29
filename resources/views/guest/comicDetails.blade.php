@@ -78,7 +78,7 @@
                     </div>
                     <div class="text-right">
                         <h3>On Sale Price:</h3>
-                        <h5>{{ $comic['sale_date'] }}</h5>
+                        <h5>{{ date_format(date_create($comic['sale_date']), 'M d Y') }}</h5>
                     </div>
                 </div>
             </div>
